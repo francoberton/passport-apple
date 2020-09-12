@@ -37,7 +37,7 @@ passport.use(new AppleStrategy({
     keyID: "",
     privateKeyLocation: "",
     passReqToCallback: true
-}, function(req, accessToken, refreshToken, decodedIdToken, profile, cb) {
+}, function(req, accessToken, refreshToken, token, decodedIdToken, profile, cb) {
     // Here, check if the decodedIdToken.sub exists in your database!
     // decodedIdToken should contains email too if user authorized it but will not contain the name
     // `profile` parameter is REQUIRED for the sake of passport implementation
