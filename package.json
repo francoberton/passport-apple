@@ -1,6 +1,6 @@
 {
   "name": "passport-apple-with-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Passport strategy for Sign in with Apple",
   "main": "src/strategy.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francoberton/passport-apple"
+    "url": "git+https://github.com/francoberton/passport-apple.git"
   },
   "keywords": [
     "apple",
